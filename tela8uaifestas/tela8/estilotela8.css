@@ -1,0 +1,243 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    margin-top: 40px;
+    width: auto;
+    justify-content: center;
+}
+
+
+input[type=text]{
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    color: black;
+    border-radius: 50px;
+    border-color: #006494;
+    border-width: 1.5px;
+    float: left;
+    font-weight: 600;
+
+}
+
+.botaoperfil{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #006494;
+        margin-left: 100px;
+        text-align: center;
+        line-height: 40px;
+        color: #FEFDF9;
+        font-weight: 600;
+}
+
+.partedecima{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botaoeventos{
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #006494;
+    border-radius: 10px;
+    border: 0.01px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.botaocategorias{
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #006494;
+    border-radius: 10px;
+    border: 0.01px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.sugestoes{
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    padding-right: 280px;
+    border-width: 2px;
+    margin-top: 30px;
+}
+
+.abasugestoes{
+    display: flex;
+    margin-top: 30px;
+    background-color: #006494;
+    border-radius: 20px;
+    height: 150px;
+    width: 350px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #3bb7ff, #016391);
+    cursor: pointer;
+}
+
+.nomesugestao{
+    color: #FEFDF9;
+    font-size: 23px;
+    text-align: left;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 38px;
+}
+
+.localsugestao{
+    color: #FEFDF9;
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 65px;
+}
+
+.datasugestao{
+    color: #FEFDF9;
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 85px;
+}
+
+.numeroconfirmadossugestao{
+    color: #FEFDF9;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 70px;
+}
+
+.confirmados{
+    color: #FEFDF9;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 88px;
+}
+
+.bolinhas{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: 5px;
+}
+.bolinha1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #006494;
+    margin-top: 8px;
+    margin-right: 80px;
+}
+
+.bolinha2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-left: 30px;
+}
+
+.bolinha3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-left: 30px;
+}
+
+.bolinha4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+    margin-left: 30px;
+}
+
+.textomes{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    padding-right: 190px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.tabela{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.diasemana{
+    color: black;
+    background-color: white;
+}
+
+.numerocalendario{
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #006494;
+    color: black;
+}
+
+.numeroproxmes{
+    color: rgb(192, 191, 191);
+}
+
+.rodape {
+    margin-top: 148px;
+    height: 130px;
+    background-color: #006494;
+    bottom: 0;
+    width: 520px;
+    justify-content: center;
+    margin: 0 auto; 
+    margin-top: 148px;
+}
+
+.informacaorodape{
+    display: flex;
+    height: 100px;
+    background-color: #FBF2DB;
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.textorodape{
+    text-align: center;
+    font-weight: bold;
+}
+

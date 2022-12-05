@@ -1,0 +1,249 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    margin-top: 40px;
+    width: auto;
+    justify-content: center;
+}
+
+
+input[type=text]{
+    height: 35px;
+    width: 300px;
+    font-size: 18px;
+    color: black;
+    border-radius: 50px;
+    border-color: #006494;
+    border-width: 1.5px;
+    float: left;
+    font-weight: 600;
+
+}
+
+.botaoperfil{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #006494;
+        margin-left: 100px;
+        text-align: center;
+        line-height: 40px;
+        color: #FEFDF9;
+        font-weight: 600;
+}
+
+.partedecima{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.botaoeventos{
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #006494;
+    border-radius: 10px;
+    border: 0.01px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.botaocategorias{
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    font-weight: 600;
+    background-color: #1B98E0;
+    color: white;
+    border-radius: 10px;
+    border: 0.01px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    font-size: 21px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+
+.botaoestilos1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+    
+
+}
+
+.botaolgbt{
+    background-color: #132c10;
+    background: linear-gradient(45deg, #118628, #132c10);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.botaorock{
+    background-color: #A32822;
+    background: linear-gradient(45deg, #F64E45, #A32822);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.botaonomecategoria{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.botaoestilos2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.botaofunk{
+    background-color: #FF7CAF;
+    background: linear-gradient(45deg, #D93F77, #FF7CAF);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+
+.botaosamba{
+    background-color: #006494;
+    background: linear-gradient(45deg, #1B98E0, #006494);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.botaoestilos3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.botaotechno{
+    background-color: #45757C
+    ;
+    background: linear-gradient(45deg, #0b394d, #49747a
+    );
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.botaohiphop{
+    background-color: #FFD542;
+    background: linear-gradient(45deg, #fda900, #fad655);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.botaoestilos4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.botaoeletronica{
+    background-color: #C36725
+    ;
+    background: linear-gradient(45deg, #794f32, #e96f19
+    );
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.botaorap{
+    background-color: #1F1F1F;
+    background: linear-gradient(45deg, #149885, #1F1F1F);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.botaoestilos5{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.botaompb{
+    background-color: #770505
+    ;
+    background: linear-gradient(45deg, #430000, #bb0a0a);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+
+.botaoindie{
+    background-color: #767676;
+    background: linear-gradient(45deg, #2E2E2E, #767676);
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+}
